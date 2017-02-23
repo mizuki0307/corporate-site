@@ -328,11 +328,7 @@ ul, menu, dir {
     font-weight: bold;
     margin-bottom: 3px;
 }
-#contents #main .news_li li span {
-    display: inline-block;
-    margin-bottom: 0;
-    padding-right: 10px;
-}
+
 #contents h3 {
     color: #42b9d0;
     font-size: 14px;
@@ -354,7 +350,7 @@ ul, menu, dir {
     background-image: url(../images/news/side_arrow.png);
     background-size: 4px 8px;
 }
-#contents #sidebar .pc_sidemenu li a {
+#contents #sideber .pc_sidemenu li a {
     color: #339fd1;
     text-decoration: none;
 }
@@ -403,6 +399,11 @@ td {
     background-image: url(../images/news/sub_cover@2x.jpg);
     height:40px;
     padding: 80px 0;
+}
+#contents #main .news_li li span {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-right: 10px;
 }
 .twelve.columns {
     width: 100%;
@@ -466,5 +467,10 @@ h1{
 }
 #fb-page{
   width:22%;
+}
+
+
+pc_sidemenu a{
+      text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
